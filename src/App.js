@@ -3,7 +3,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="">
+    <div className="content">
       <img src={logo} className="logo" alt="New York Times Logo" />
       <h3 className="section"> Choose a Section</h3>
       <div className="selectOptions">
@@ -17,7 +17,7 @@ function App() {
           <option value="fashion"> Fashion</option>
         </select>
       </div>
-      <h3>&copy;Copyright 2021 INSTANEWS</h3>
+      <p className="footer">&copy;Copyright 2021 INSTANEWS</p>
     </div>
   );
 }
